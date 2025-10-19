@@ -2,7 +2,7 @@
 
 This repository is intended to track the transformation of a casio mini tv into a portable clock and usefull device. I have purchased this damaged tv to remove all the screen and damaged pcb, to add a ESP Wroom 32 D1 with a MAX98357A digital I2S Class D amplifier, and a cheap 1.8 inch screen with resolution of 128x160 pixels.
 
-Components used:
+## Components used:
 
 * Broken Casio TV-800
 * ESP Wroom 32 D1.
