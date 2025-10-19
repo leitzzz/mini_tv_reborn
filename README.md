@@ -16,3 +16,11 @@ This repository is intended to track the transformation of a casio mini tv into 
 Basic soldering skills were needed to join and wire the cables.
 
 The board was flashed with Micropython "ESP32_GENERIC-20250911-v1.26.1.bin" firmware.
+
+## About the casio tv-800:
+
+Its a nice cube-shaped  TV - Ultra-Compact according to an advert from 1987. Only 47 mm screen size, 360 g with 4 AA-size batteries. Made in Japan.
+
+## Reference image of the original case
+
+![Image of the casio tv-800](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/16e43093a75c8c3a67a2468d36297b9ac6690145/casio_tv800/tv-800-gr.jpg "Casio tv-800")
