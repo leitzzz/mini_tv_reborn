@@ -16,7 +16,7 @@ def main():
     screen_instance.clear()
 
     bios_checking.bios_check(BIOS_INFO, screen_instance.tft)
-    # play audio sound
+    # play audio sound, to simulate old pc BIOS beep, im that old school mood.
     # sound.play_sound(WAV_AUDIOS["bios_beep"], screen_instance.tft)
     time.sleep(10)
 

@@ -14,7 +14,7 @@ def show_clock(tft):
     # tft.text((0, v), str(1234.567), TFT.BLUE, sysfont, 4, nowrap=True)
     #  tft.text((0, 10), "11:53:24", TFT.GREEN, sysfont, 3, nowrap=True)
     tft.text((0, 10), str(random.random()), TFT.GREEN, sysfont, 3, nowrap=True)
-    tft.text((0, 40), "Venezuela", TFT.GREEN, sysfont, 2, nowrap=True)
+    tft.text((0, 40), "Country", TFT.GREEN, sysfont, 2, nowrap=True)
 
     # tft.fill(TFT.BLACK)
 

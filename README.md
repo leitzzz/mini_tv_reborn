@@ -37,4 +37,4 @@ Its a nice cube-shaped  TV - Ultra-Compact according to an advert from 1987. Onl
 
 ![Picture result 4](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/refs/heads/main/casio_tv800/pic10.png "Casio tv-800")
 
-Check the docs folder to see more.
+Check the casio_tv800 folder to see more.

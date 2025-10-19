@@ -25,24 +25,15 @@ def connect_wifi(ssid, password):
         if wlan.isconnected():
             break
         max_wait -= 1
-        # print('.', end='')
-        # Optional visual feedback on screen
-        # tft.text((0, 70), '.', TFT.YELLOW, sysfont, 2, nowrap=True)
+
         time.sleep(0.1)  # Wait 100ms
 
     # 3. Check and report connection status
     if wlan.isconnected():
         ip_info = wlan.ifconfig()
         # print("\nWi-Fi Connected!")
-        # print(f"IP Address: {ip_info[0]}")
-        # tft.text((0, 10), "Connected!",
-        #          TFT.GREEN, sysfont, 2, nowrap=True)
-        # tft.text((0, 40), f"Local IP: {ip_info[0]}",
-        #          TFT.GREEN, sysfont, 1, nowrap=True)
     else:
         # print("\nWi-Fi Connection Failed.")
-        # tft.text((0, 20), "WIFI Connection Failed!",
-        #          TFT.RED, sysfont, 1, nowrap=True)
         wlan.active(False)  # Turn off the interface
 
     time.sleep(5)  # short delay to show status
