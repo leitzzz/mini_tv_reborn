@@ -1,15 +1,17 @@
-# The reborn of a casio mini TV-800
+# The reborn of a Casio mini TV-800
 
-This repository is intended to track the transformation of a casio mini tv into a portable clock and usefull device. I have purchased this damaged tv to remove all the screen and damaged pcb, to add a ESP Wroom 32 D1 with a MAX98357A digital I2S Class D amplifier, and a cheap 1.8 inch screen with resolution of 128x160 pixels.
+This repository is intended to track the transformation of a Casio mini tv into a portable clock and usefull device, connected to internet and request information like weather, news, etc and show it in the screen. 
+
+I have purchased this damaged tv to remove all the screen and damaged pcb, to add a ESP Wroom 32 D1 with a MAX98357A digital I2S Class D amplifier, and a cheap 1.8 inch screen with resolution of 128x160 pixels.
 
 ## Components used:
 
 * Broken Casio TV-800.
 * ESP Wroom 32 D1.
 * MAX98357A digital I2S Class D amplifier.
-* Small ~ 1.5cm speaker, in parallel to the original speaker of the mini tv.
+* A Small ~ 1.5cm size speaker, in parallel to the original speaker of the mini tv, 2 speakers en total.
 * Female USB-C, to feed 5v to the ESP32.
-* Switch to turn off the main board, breaking the + of the USB-C Cable.
+* Switch to turn off the main board, breaking the +5v of the USB-C Cable.
 * ST7735S of 1.8 inch screen, with a 128x160 pixels.
 * A lot of wires.
 
