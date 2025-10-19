@@ -25,3 +25,14 @@ Its a nice cube-shaped  TV - Ultra-Compact according to an advert from 1987. Onl
 
 ![Image of the casio tv-800](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/16e43093a75c8c3a67a2468d36297b9ac6690145/casio_tv800/tv-800-gr.jpg "Casio tv-800")
 
+## Some pictures of the final result
+
+![Picture result 1](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/refs/heads/main/casio_tv800/pic5.png "Casio tv-800")
+
+![Picture result 2](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/refs/heads/main/casio_tv800/pic6.png "Casio tv-800")
+
+![Picture result 3](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/refs/heads/main/casio_tv800/pic7.png "Casio tv-800")
+
+![Picture result 4](https://raw.githubusercontent.com/leitzzz/mini_tv_reborn/refs/heads/main/casio_tv800/pic10.png "Casio tv-800")
+
+Check the docs folder to see more.
