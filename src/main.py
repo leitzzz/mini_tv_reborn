@@ -1,5 +1,6 @@
 import machine
 import time
+import ntptime
 
 from screen.st7735 import TFT
 from screen.sysfont import sysfont
@@ -15,21 +16,20 @@ from tools import clock, bios_checking
 def main():
     screen_instance.clear()
 
-    bios_checking.bios_check(BIOS_INFO, screen_instance.tft)
+    # bios simulation init
+    # bios_checking.bios_check(BIOS_INFO, screen_instance.tft)
     # play audio sound, to simulate old pc BIOS beep, im that old school mood.
     # sound.play_sound(WAV_AUDIOS["bios_beep"], screen_instance.tft)
-    time.sleep(10)
+    # time.sleep(10)
+    # screen_instance.clear()
 
-    screen_instance.clear()
-
+    # main logo display
     # fill screen with white color, before showing the logo.
-    screen_instance.fill_with_color(TFT.WHITE)
-    screen_instance.show_image(
-        'assets/images/casio.bmp', TFT_PARAMETERS["screen_disposition_width"], TFT_PARAMETERS["screen_disposition_height"])
-
-    time.sleep(5)
-
-    screen_instance.clear()
+    # screen_instance.fill_with_color(TFT.WHITE)
+    # screen_instance.show_image(
+    #     'assets/images/casio.bmp', TFT_PARAMETERS["screen_disposition_width"], TFT_PARAMETERS["screen_disposition_height"])
+    # time.sleep(5)
+    # screen_instance.clear()
 
     wifi_handle = connect_wifi(
         WIFI_PARAMETERS["ssid"], WIFI_PARAMETERS["password"])
@@ -64,10 +64,13 @@ def main():
 
     time.sleep(3)
 
-    for _ in range(3):
+    ntptime.settime()
+
+    for _ in range(10):
         screen_instance.clear()
-        clock.show_clock(screen_instance.tft)
-        time.sleep(1)
+        clock.show_clock(screen_instance.tft, ts_offset=-
+                         14400, subtitle="UTC-4")
+        time.sleep(0.5)
 
     time.sleep(2)
 
