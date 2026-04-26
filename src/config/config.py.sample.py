@@ -52,6 +52,10 @@ BIOS_INFO = {
 }
 
 GENERAL_CONFIG = {
+    "your_city": {"latitude": 3.1967, "longitude": -70.685, "name": "Your city"},
     # seconds, if is set to 0 no reboot will perform
     "reboot_after_no_wifi_connection": 0,
+    # it will restart the device after X seconds, you can change this value to any time you want, in seconds.
+    "reboot_after_seconds": 28800,
+    "countries_to_get_time": [("Venezuela", -14400), ("Chile", -14400), ("Mexico", -21600), ("Panama", -18000), ("Guatemala", -21600)],
 }
